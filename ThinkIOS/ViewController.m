@@ -28,23 +28,23 @@
     
     self.dataArray = @[
         @{@"sectionTitle": @"基本使用", @"classes": @[
-            @{@"title": @"简单的列表", @"class": @"SimpleListViewController"},
-            @{@"title": @"一个group多个item", @"class": @"MultiCellViewController"},
-            @{@"title": @"截然不同的section", @"class": @"DistinctSectionsViewController"},
+            @{@"title": @"Banner", @"class": @"BannerViewController"},
+            @{@"title": @"", @"class": @"MultiCellViewController"},
+            @{@"title": @"", @"class": @"DistinctSectionsViewController"},
         ]},
-        @{@"sectionTitle": @"Supplementary view(补充视图)", @"classes": @[
-            @{@"title": @"badge", @"class": @"BadgeViewController"},
-            @{@"title": @"header footer", @"class": @"HeaderFooterViewController"}
+        @{@"sectionTitle": @" view(补充视图)", @"classes": @[
+            @{@"title": @"", @"class": @"BadgeViewController"},
+            @{@"title": @"", @"class": @"HeaderFooterViewController"}
         ]},
-        @{@"sectionTitle": @"Decoration view(装饰视图)", @"classes": @[
-            @{@"title": @"decoration background", @"class": @"DecorateViewController"},
+        @{@"sectionTitle": @"", @"classes": @[
+            @{@"title": @"", @"class": @"DecorateViewController"},
         ]},
-        @{@"sectionTitle": @"Nested View(嵌套视图)", @"classes": @[
-            @{@"title": @"Nested group", @"class": @"NestedGroupViewController"},
-            @{@"title": @"Nested Collection View", @"class": @"NestedCollectionViewController"},
+        @{@"sectionTitle": @"", @"classes": @[
+            @{@"title": @"", @"class": @"NestedGroupViewController"},
+            @{@"title": @"", @"class": @"NestedCollectionViewController"},
         ]},
         @{@"sectionTitle": @"综合Demo", @"classes": @[
-            @{@"title": @"相册", @"class": @"AlbumsViewController"},
+            @{@"title": @"", @"class": @"AlbumsViewController"},
         ]},
     ];
     
