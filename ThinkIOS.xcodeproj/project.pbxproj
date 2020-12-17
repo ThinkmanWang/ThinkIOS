@@ -21,6 +21,7 @@
 		829D5C56258B6A4B00C74B9F /* SimpleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D5C51258B6A4B00C74B9F /* SimpleListViewController.m */; };
 		829D5C57258B6A4B00C74B9F /* SimpleListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D5C52258B6A4B00C74B9F /* SimpleListCollectionViewCell.m */; };
 		829D5C60258B71FE00C74B9F /* BaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D5C5E258B71FE00C74B9F /* BaseListViewController.m */; };
+		829D5C64258B72A000C74B9F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D5C63258B72A000C74B9F /* BaseViewController.m */; };
 		96B82C74B525FCC929A5F655 /* Pods_ThinkIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5069E01609189BD04CC8B471 /* Pods_ThinkIOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		829D5C54258B6A4B00C74B9F /* SimpleListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleListCollectionViewCell.h; sourceTree = "<group>"; };
 		829D5C5E258B71FE00C74B9F /* BaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseListViewController.m; sourceTree = "<group>"; };
 		829D5C5F258B71FE00C74B9F /* BaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseListViewController.h; sourceTree = "<group>"; };
+		829D5C62258B72A000C74B9F /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		829D5C63258B72A000C74B9F /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				82536D96258B59850096B395 /* LaunchScreen.storyboard */,
 				82536D99258B59850096B395 /* Info.plist */,
 				82536D9A258B59850096B395 /* main.m */,
+				829D5C62258B72A000C74B9F /* BaseViewController.h */,
+				829D5C63258B72A000C74B9F /* BaseViewController.m */,
 			);
 			path = ThinkIOS;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82536D90258B59820096B395 /* ViewController.m in Sources */,
+				829D5C64258B72A000C74B9F /* BaseViewController.m in Sources */,
 				82536D8A258B59820096B395 /* AppDelegate.m in Sources */,
 				829D5C56258B6A4B00C74B9F /* SimpleListViewController.m in Sources */,
 				829D5C45258B653800C74B9F /* TYCyclePagerViewCell.m in Sources */,
