@@ -6,13 +6,13 @@
 //  Copyright © 2019 张延深. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "BaseListViewController.h"
 
-@interface BaseViewController ()
+@interface BaseListViewController ()
 
 @end
 
-@implementation BaseViewController
+@implementation BaseListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -6,11 +6,11 @@
 //  Copyright © 2019 张延深. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "BaseListViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SimpleListViewController : BaseViewController
+@interface SimpleListViewController : BaseListViewController
 
 @end
 
