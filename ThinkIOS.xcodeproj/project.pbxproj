@@ -14,9 +14,13 @@
 		82536D95258B59850096B395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82536D94258B59850096B395 /* Assets.xcassets */; };
 		82536D98258B59850096B395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82536D96258B59850096B395 /* LaunchScreen.storyboard */; };
 		82536D9B258B59850096B395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82536D9A258B59850096B395 /* main.m */; };
+		96B82C74B525FCC929A5F655 /* Pods_ThinkIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5069E01609189BD04CC8B471 /* Pods_ThinkIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E63721ACC9B2C5223757627 /* Pods-ThinkIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkIOS.debug.xcconfig"; path = "Target Support Files/Pods-ThinkIOS/Pods-ThinkIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5069E01609189BD04CC8B471 /* Pods_ThinkIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThinkIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		651F25D12228E5FCFBDC2A3E /* Pods-ThinkIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkIOS.release.xcconfig"; path = "Target Support Files/Pods-ThinkIOS/Pods-ThinkIOS.release.xcconfig"; sourceTree = "<group>"; };
 		82536D85258B59820096B395 /* ThinkIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82536D88258B59820096B395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82536D89258B59820096B395 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -36,17 +40,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B82C74B525FCC929A5F655 /* Pods_ThinkIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21B007EEB184F279A4B96CBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E63721ACC9B2C5223757627 /* Pods-ThinkIOS.debug.xcconfig */,
+				651F25D12228E5FCFBDC2A3E /* Pods-ThinkIOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		82536D7C258B59820096B395 = {
 			isa = PBXGroup;
 			children = (
 				82536D87258B59820096B395 /* ThinkIOS */,
 				82536D86258B59820096B395 /* Products */,
+				21B007EEB184F279A4B96CBD /* Pods */,
+				D6D91513E2DAD214DCA74B86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +93,14 @@
 			path = ThinkIOS;
 			sourceTree = "<group>";
 		};
+		D6D91513E2DAD214DCA74B86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5069E01609189BD04CC8B471 /* Pods_ThinkIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82536D9E258B59850096B395 /* Build configuration list for PBXNativeTarget "ThinkIOS" */;
 			buildPhases = (
+				F4EB4EACF26418118B8EE1D5 /* [CP] Check Pods Manifest.lock */,
 				82536D81258B59820096B395 /* Sources */,
 				82536D82258B59820096B395 /* Frameworks */,
 				82536D83258B59820096B395 /* Resources */,
+				DE85AAC6ED6DDE3417E1B61B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -139,6 +166,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE85AAC6ED6DDE3417E1B61B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThinkIOS/Pods-ThinkIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThinkIOS/Pods-ThinkIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ThinkIOS/Pods-ThinkIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4EB4EACF26418118B8EE1D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThinkIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		82536D81258B59820096B395 /* Sources */ = {
@@ -288,6 +357,7 @@
 		};
 		82536D9F258B59850096B395 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E63721ACC9B2C5223757627 /* Pods-ThinkIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +375,7 @@
 		};
 		82536DA0258B59850096B395 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651F25D12228E5FCFBDC2A3E /* Pods-ThinkIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

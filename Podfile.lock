@@ -1,0 +1,62 @@
+PODS:
+  - AFDownloadRequestOperation (2.0.1):
+    - AFNetworking (~> 2.0)
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
+  - SDAutoLayout (2.2.1)
+  - TYCyclePagerView (1.2.0)
+  - WMZDialog (1.1.9)
+  - YTKNetwork (1.3.0):
+    - AFDownloadRequestOperation (~> 2.0)
+    - AFNetworking (~> 2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5)
+  - Masonry
+  - SDAutoLayout
+  - TYCyclePagerView
+  - WMZDialog
+  - YTKNetwork
+
+SPEC REPOS:
+  trunk:
+    - AFDownloadRequestOperation
+    - AFNetworking
+    - Masonry
+    - SDAutoLayout
+    - TYCyclePagerView
+    - WMZDialog
+    - YTKNetwork
+
+SPEC CHECKSUMS:
+  AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
+  WMZDialog: e43f65659d6be814bd35e6f7dc7503434f6d61a8
+  YTKNetwork: a9fdf7968deefb06a58d988148558453005564c4
+
+PODFILE CHECKSUM: ae3465fa450b9cb3ed7ab0fa9ac037c6e6628c99
+
+COCOAPODS: 1.10.0
