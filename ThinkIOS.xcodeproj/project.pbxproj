@@ -17,6 +17,10 @@
 		829D5C40258B642F00C74B9F /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D5C3F258B642F00C74B9F /* BannerViewController.m */; };
 		829D5C45258B653800C74B9F /* TYCyclePagerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D5C43258B653800C74B9F /* TYCyclePagerViewCell.m */; };
 		829D5C48258B689E00C74B9F /* img in Resources */ = {isa = PBXBuildFile; fileRef = 829D5C47258B689E00C74B9F /* img */; };
+		829D5C55258B6A4B00C74B9F /* SimpleListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829D5C50258B6A4B00C74B9F /* SimpleListCollectionViewCell.xib */; };
+		829D5C56258B6A4B00C74B9F /* SimpleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D5C51258B6A4B00C74B9F /* SimpleListViewController.m */; };
+		829D5C57258B6A4B00C74B9F /* SimpleListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D5C52258B6A4B00C74B9F /* SimpleListCollectionViewCell.m */; };
+		829D5C5B258B70A700C74B9F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D5C59258B70A700C74B9F /* BaseViewController.m */; };
 		96B82C74B525FCC929A5F655 /* Pods_ThinkIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5069E01609189BD04CC8B471 /* Pods_ThinkIOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +45,13 @@
 		829D5C43258B653800C74B9F /* TYCyclePagerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYCyclePagerViewCell.m; path = banner/TYCyclePagerViewCell.m; sourceTree = "<group>"; };
 		829D5C44258B653800C74B9F /* TYCyclePagerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYCyclePagerViewCell.h; path = banner/TYCyclePagerViewCell.h; sourceTree = "<group>"; };
 		829D5C47258B689E00C74B9F /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		829D5C50258B6A4B00C74B9F /* SimpleListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleListCollectionViewCell.xib; sourceTree = "<group>"; };
+		829D5C51258B6A4B00C74B9F /* SimpleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleListViewController.m; sourceTree = "<group>"; };
+		829D5C52258B6A4B00C74B9F /* SimpleListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleListCollectionViewCell.m; sourceTree = "<group>"; };
+		829D5C53258B6A4B00C74B9F /* SimpleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleListViewController.h; sourceTree = "<group>"; };
+		829D5C54258B6A4B00C74B9F /* SimpleListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleListCollectionViewCell.h; sourceTree = "<group>"; };
+		829D5C59258B70A700C74B9F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		829D5C5A258B70A700C74B9F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +96,9 @@
 		82536D87258B59820096B395 /* ThinkIOS */ = {
 			isa = PBXGroup;
 			children = (
+				829D5C5A258B70A700C74B9F /* BaseViewController.h */,
+				829D5C59258B70A700C74B9F /* BaseViewController.m */,
+				829D5C4F258B6A2A00C74B9F /* SimpleList */,
 				829D5C47258B689E00C74B9F /* img */,
 				829D5C3D258B63E100C74B9F /* banner */,
 				82536D88258B59820096B395 /* AppDelegate.h */,
@@ -111,6 +125,18 @@
 				829D5C3F258B642F00C74B9F /* BannerViewController.m */,
 			);
 			name = banner;
+			sourceTree = "<group>";
+		};
+		829D5C4F258B6A2A00C74B9F /* SimpleList */ = {
+			isa = PBXGroup;
+			children = (
+				829D5C54258B6A4B00C74B9F /* SimpleListCollectionViewCell.h */,
+				829D5C52258B6A4B00C74B9F /* SimpleListCollectionViewCell.m */,
+				829D5C50258B6A4B00C74B9F /* SimpleListCollectionViewCell.xib */,
+				829D5C53258B6A4B00C74B9F /* SimpleListViewController.h */,
+				829D5C51258B6A4B00C74B9F /* SimpleListViewController.m */,
+			);
+			path = SimpleList;
 			sourceTree = "<group>";
 		};
 		D6D91513E2DAD214DCA74B86 /* Frameworks */ = {
@@ -180,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				829D5C48258B689E00C74B9F /* img in Resources */,
+				829D5C55258B6A4B00C74B9F /* SimpleListCollectionViewCell.xib in Resources */,
 				82536D98258B59850096B395 /* LaunchScreen.storyboard in Resources */,
 				82536D95258B59850096B395 /* Assets.xcassets in Resources */,
 				82536D93258B59820096B395 /* Main.storyboard in Resources */,
@@ -236,10 +263,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				82536D90258B59820096B395 /* ViewController.m in Sources */,
+				829D5C5B258B70A700C74B9F /* BaseViewController.m in Sources */,
 				82536D8A258B59820096B395 /* AppDelegate.m in Sources */,
+				829D5C56258B6A4B00C74B9F /* SimpleListViewController.m in Sources */,
 				829D5C45258B653800C74B9F /* TYCyclePagerViewCell.m in Sources */,
 				82536D9B258B59850096B395 /* main.m in Sources */,
 				82536D8D258B59820096B395 /* SceneDelegate.m in Sources */,
+				829D5C57258B6A4B00C74B9F /* SimpleListCollectionViewCell.m in Sources */,
 				829D5C40258B642F00C74B9F /* BannerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

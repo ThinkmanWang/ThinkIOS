@@ -29,7 +29,7 @@
     self.dataArray = @[
         @{@"sectionTitle": @"基本使用", @"classes": @[
             @{@"title": @"Banner", @"class": @"BannerViewController"},
-            @{@"title": @"", @"class": @"MultiCellViewController"},
+            @{@"title": @"ListView", @"class": @"SimpleListViewController"},
             @{@"title": @"", @"class": @"DistinctSectionsViewController"},
         ]},
         @{@"sectionTitle": @" view(补充视图)", @"classes": @[
