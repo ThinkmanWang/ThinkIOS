@@ -20,11 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+
     [self initUI];
 }
 
 - (void)initUI {
+    
     self.dataArray = @[
         @{@"sectionTitle": @"基本使用", @"classes": @[
             @{@"title": @"简单的列表", @"class": @"SimpleListViewController"},
