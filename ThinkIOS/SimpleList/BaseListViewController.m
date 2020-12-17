@@ -39,4 +39,8 @@
     return [[UICollectionViewFlowLayout alloc] init];
 }
 
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"Click at %ld", indexPath.row);
+}
+
 @end
