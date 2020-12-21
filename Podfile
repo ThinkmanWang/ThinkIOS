@@ -10,6 +10,7 @@ target 'ThinkIOS' do
   pod 'WMZDialog',inhibit_warnings: true
   pod 'SDAutoLayout'
   pod 'Masonry'
+  pod 'XHLaunchAd'
 
   # Pods for ThinkIOS
 
