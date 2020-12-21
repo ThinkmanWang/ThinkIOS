@@ -26,7 +26,7 @@ PODS:
   - Masonry (1.1.0)
   - SDAutoLayout (2.2.1)
   - TYCyclePagerView (1.2.0)
-  - WMZDialog (1.1.9)
+  - WMZDialog (1.1.10)
   - XHLaunchAd (3.9.12):
     - FLAnimatedImage (~> 1.0.12)
   - YTKNetwork (1.3.0):
@@ -35,6 +35,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
+  - FLAnimatedImage
   - Masonry
   - SDAutoLayout
   - TYCyclePagerView
@@ -61,10 +62,10 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
   TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
-  WMZDialog: e43f65659d6be814bd35e6f7dc7503434f6d61a8
+  WMZDialog: a20f66c9ad51b68f11a228bd8e5e81bd90f99326
   XHLaunchAd: 6320f9c68732667323072fc3a5f104e40fbe9cfe
   YTKNetwork: a9fdf7968deefb06a58d988148558453005564c4
 
-PODFILE CHECKSUM: 5ec6d2f78c8daebcaa634fef2675aa621cdcc1f3
+PODFILE CHECKSUM: 7dc6e802965730f8fa10314e3a05afcfd2c123a0
 
 COCOAPODS: 1.10.0

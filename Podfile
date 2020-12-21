@@ -11,6 +11,7 @@ target 'ThinkIOS' do
   pod 'SDAutoLayout'
   pod 'Masonry'
   pod 'XHLaunchAd'
+  pod 'FLAnimatedImage'
 
   # Pods for ThinkIOS
 
